@@ -1,0 +1,33 @@
+.container{
+max-width: 1300px;
+margin: auto;
+padding-left: 25px;
+padding-right: 25px;
+} 
+.row{
+display: flex;
+align-items: center;
+flex-wrap: wrap;
+justify-content: space-around;
+} 
+.col-2{
+flex-basis: 50%;
+min-width: 300px;
+}
+article img {
+    width: 250px;
+}
+table{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+td, th {
+    padding: 8px;
+}
+tr:nth-child(even) {
+    background-color: rgb(212, 240, 241);
+}
+footer{
+    background-color: #dddddd;
+}
